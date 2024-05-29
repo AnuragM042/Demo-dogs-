@@ -8,7 +8,7 @@ import Image1 from "../../assets/Home2-1.jpg";
 import Image2 from "../../assets/Home2-2.png";
 import Logo from "../../assets/logo2.png";
 import { Link } from 'react-router-dom';
-
+import  './home2.css'
 function Home2() {
   
 
@@ -68,11 +68,11 @@ function Home2() {
           {/* Image 1 */}
           <img className='rounded-xl w-full max-w-[600px]' src={Image1} alt="people" />
         </div>
-        <div className='relative w-full max-w-[600px] h-[600px]  '>
+        <div className='relative w-full max-w-[600px] h-[400px]  '>
           {/* Image 2 as background */}
-          <img className='absolute inset-0 w-full h-full object-cover rounded-xl' src={Image2} alt="background" />
+          <img className='absolute inset-0 w-full  object-cover rounded-xl' src={Image2} alt="background" />
           {/* Logo on top */}
-          <div className='absolute inset-0 flex flex-col '>
+          <div className='absolute inset-0 h-[400px] flex flex-col '>
             <img className='max-h-[90px] max-w-[80%]' src={Logo} alt="logo" />
             <p className="text-lg mb-4 font-['Georgia'] text-white font-bold">Reconnect with your dog through various activities</p>
             <p className="text-lg mb-4 font-['Cambria'] text-white font-bold">With the growing number of dogs and dog parents, more and more places are becoming pet-friendly</p>
@@ -86,28 +86,6 @@ function Home2() {
               <Button className="font-['Cambria'] border border-white bg-black p-[15px] flex justify-center content-center text-white" ripple={true}>
                 Check out Instagram<MdKeyboardDoubleArrowRight className="text-xs" />
               </Button>
-            </p>
-            <p className='flex mt-[10px] flex-wrap gap-2 left-0 justify-start space-x-2 mb-[50px]'>
-              <Link to="/overnight-camps">
-                <p className="bg-slate-600 font-['Cambria'] text-xl p-[15px] w-[110px] rounded-full cursor-pointer text-white hover:text-yellow-500">
-                  <FaHandPointRight size={25} /> Camping
-                </p>
-              </Link>
-              <Link to="/sailing">
-                <p className="bg-slate-600  font-['Cambria'] text-xl p-[15px] w-[110px] rounded-full cursor-pointer text-white hover:text-yellow-500">
-                  <FaHandPointRight size={25} /> Sailing
-                </p>
-              </Link>
-              <Link to="/activity">
-                <p className="bg-slate-600 font-['Cambria'] text-xl p-[15px] rounded-full cursor-pointer text-white hover:text-yellow-500">
-                  <FaHandPointRight size={25} /> 1 Day Activity
-                </p>
-              </Link>
-              <Link to="/tripindia">
-                <p className="bg-slate-600 font-['Cambria'] text-xl p-[15px] w-[120px] rounded-full cursor-pointer text-white hover:text-yellow-500">
-                  <FaHandPointRight size={25} /> Trip India
-                </p>
-              </Link>
             </p>
           </div>
         </div>

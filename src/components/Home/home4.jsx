@@ -8,7 +8,7 @@ import "./home4.css"
 
 function Home4() {
   const settings = {
-    dots: true,
+    dots: false,
     dotsClass: "slick-dots slick-thumb text-red-500", 
     infinite: true,
     speed: 500,
@@ -25,7 +25,7 @@ function Home4() {
           slidesToScroll: 1,
           autoplay: true,
           infinite: true,
-          dots: true,
+          dots: false,
           arrows: true,
         }
       },
@@ -36,7 +36,7 @@ function Home4() {
           slidesToScroll: 1,
           autoplay: true,
           infinite: true,
-          dots: true,
+          dots: false,
           arrows: true,
         }
       }
