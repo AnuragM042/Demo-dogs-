@@ -13,7 +13,8 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <Router>
+      <div className='bg-custom-gradient'>
+         <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Home0 />} />
@@ -27,6 +28,7 @@ function App() {
         </Routes>
       </Layout>
     </Router>
+      </div>
   );
 }
 

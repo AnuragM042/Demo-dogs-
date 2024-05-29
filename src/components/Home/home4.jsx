@@ -26,7 +26,7 @@ function Home4() {
           autoplay: true,
           infinite: true,
           dots: false,
-          arrows: true,
+          arrows: false,
         }
       },
       {
@@ -37,7 +37,7 @@ function Home4() {
           autoplay: true,
           infinite: true,
           dots: false,
-          arrows: true,
+          arrows: false,
         }
       }
     ]

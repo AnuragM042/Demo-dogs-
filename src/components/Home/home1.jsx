@@ -33,7 +33,7 @@ function Home1() {
           autoplay: true,
           infinite: true,
           dots: true,
-          arrows: true,
+          arrows: false,
         }
       },
       {
@@ -44,7 +44,7 @@ function Home1() {
           autoplay: true,
           infinite: true,
           dots: true,
-          arrows: true,
+          arrows: false,
         }
       }
     ]
@@ -73,7 +73,7 @@ function Home1() {
       </div>
 
       {/* for large screens */}
-      <div className="hidden md:flex justify-center items-center w-full md:h-[70%] lg:w-[80%] lg:h-[800px]">
+      <div className="hidden md:flex md:mt-[55px] px-2 justify-center items-center w-full md:h-[70%] lg:w-[80%] lg:h-[800px]">
         <Slider {...settings} className="w-full">
           <div className="flex justify-center">
             <img src={Image5} alt="Slide 5" className="slider-image object-cover rounded-xl w-full h-[800px]" />

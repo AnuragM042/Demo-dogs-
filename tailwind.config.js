@@ -28,7 +28,7 @@ export default {
       },
       screens: {
         'am': {'max': '639px'},
-        'dm': {'max': '730px'}
+        'dm': {'max': '780px'}
       }
     },
   },

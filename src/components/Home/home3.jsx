@@ -38,6 +38,7 @@ const Home3 = () => {
 
   const settings = {
     dots: false,
+    arrows:false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -57,27 +58,27 @@ const Home3 = () => {
 
       {/* 1st set of images */}
      <div>
-     <div className="flex justify-center overflow-x-auto w-full space-x-2 py-6 hide-scrollbar">
-        <Card className="mt-6 h-[250px] w-[230px]  sm:w-[400px] sm:h-[350px]  px-2">
-          <CardHeader color="blue-gray" className="my-2">
-            <img src={Image1} alt="card-image" />
+     <div className="flex sm:justify-center overflow-x-auto w-full space-x-2 py-6 hide-scrollbar">
+     <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[300px] gap-2 px-2">
+          <CardHeader color="blue-gray" className="my-2 ">
+            <img src={Image1} alt="card-image" className="" />
           </CardHeader>
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2 text-center">
-              Camping
+            CAMPING
             </Typography>
             <Typography className="text-center">
-              Paw'dventure Nightouts
+            Paw'dventure Nightouts
             </Typography>
           </CardBody>
           <CardFooter className="text-center">
-            <Link to="/overnight-camps">
-            <Button className='text-black text-base text-center'>Read More</Button>
-            </Link>
+           <Link to="/overnight-camps">
+           <Button className='text-black text-base text-center'>Read More</Button>
+           </Link>
           </CardFooter>
         </Card>
         {/* card 2 */}
-        <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[350px]  px-2">
+        <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[300px] gap-2 px-2">
           <CardHeader color="blue-gray" className="my-2 ">
             <img src={Image2} alt="card-image" className="" />
           </CardHeader>
@@ -96,7 +97,7 @@ const Home3 = () => {
           </CardFooter>
         </Card>
         {/* card 3 */}
-        <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[350px]  px-2">
+        <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[300px] gap-2 px-2">
           <CardHeader color="blue-gray" className="my-2">
             <img src={Image3} alt="card-image" />
           </CardHeader>
@@ -115,7 +116,7 @@ const Home3 = () => {
           </CardFooter>
         </Card>
         {/* card 4 */}
-        <Card className="mt-6 h-[250px]  min-w-[230px] sm:w-[400px] sm:h-[350px] px-2 ">
+        <Card className="mt-6 h-[250px]  min-w-[230px] sm:w-[400px] sm:h-[300px] gap-2 px-2 ">
           <CardHeader color="blue-gray" className="my-2">
             <img src={Image4} alt="card-image" />
           </CardHeader>
