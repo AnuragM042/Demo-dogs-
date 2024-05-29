@@ -26,11 +26,11 @@ const Sailing2 = () => {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: autoplay,
+    autoplay: true,
     speed: 4000,
     autoplaySpeed: 4000,
     cssEase: 'linear',

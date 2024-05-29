@@ -13,8 +13,7 @@ import { Accordion, AccordionItem } from '../Accordion';
 
 const Overnight2 = () => {
   const settings = {
-    dots: true,
-    dotsClass: "slick-dots slick-thumb",
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -23,6 +22,20 @@ const Overnight2 = () => {
     autoplaySpeed: 4000,
     cssEase: 'linear',
     arrows:false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (

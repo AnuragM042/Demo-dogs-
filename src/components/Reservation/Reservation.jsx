@@ -62,7 +62,8 @@ const ReservationForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 text-white bg-custom-gradient">
+   <div className='bg-custom-gradient'>
+     <div className="max-w-4xl mx-auto p-4 text-white bg-custom-gradient">
       <h1 className="text-3xl font-bold mb-4">Overnight Campus Booking</h1>
       <p className="mb-4">Please fill out the form below to reserve your spot.</p>
 
@@ -163,6 +164,7 @@ const ReservationForm = () => {
         Pay <MdKeyboardDoubleArrowRight className="text-xs ml-2"/>
       </Button>
     </div>
+   </div>
   );
 };
 

@@ -53,7 +53,7 @@ function Home4() {
       </div>
 
       {/* Slider */}
-      <div className="overflow-hidden  h-[540px] lg:w-[900px] md:w-[600px] sm:w-[500px] w-full mx-auto">
+      <div className="overflow-hidden  md:h-[540px] am:h[300px] lg:w-[900px] md:w-[600px] sm:w-[500px] w-full mx-auto">
         <Slider {...settings} className="px-5 am:h-[240px]">
           <div className="text-center">
             <img src={Image1} alt="Testimonial 1" className=" h-auto object-cover" />
