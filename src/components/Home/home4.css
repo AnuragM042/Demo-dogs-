@@ -1,0 +1,49 @@
+/* Home4.css */
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: auto !important;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-image {
+  width: 100%;
+  max-height: 600px; /* Adjust the max height as needed */
+  object-fit: cover;
+}
+
+.slick-prev, .slick-next {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  color: blue; /* Change to desired color */
+}
+
+.slick-prev:before, .slick-next::before {
+  font-size: 30px;
+  color: red; /* Change to desired color */
+}
+
+.slick-dots.slick-thumb li button::before {
+  font-size: 14px;
+  margin-top: 5px;
+  color: white; /* Change to desired color */
+}
+.slick-dots {
+  
+  height: 50px;
+}
