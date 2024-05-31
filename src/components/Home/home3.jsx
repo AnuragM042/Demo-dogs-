@@ -49,10 +49,10 @@ const Home3 = () => {
   };
 
   return (
-    <div className=''>
+    <div className=''> 
       {/* Title */}
       <div className="flex justify-center items-center content-center">
-        <p className="font-['Cambria'] text-3xl sm:text-4xl  mt-5 font-extrabold">Experience our Paw'dventures</p>
+        <p className="font-['Cambria'] text-2xl sm:text-4xl  mt-2 font-extrabold">Experience our Paw'dventures</p>
       </div>
       {/* Title ends here */}
 

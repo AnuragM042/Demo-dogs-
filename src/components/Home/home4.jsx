@@ -48,7 +48,7 @@ function Home4() {
       {/* Texts */}
       <div className="flex flex-col font-['Cambria'] text-xl items-center justify-center space-y-5">
         <p>Testimonials</p>
-        <h3 className="text-3xl font-bold font-['Cambria'] ">See what Other Dog Parents Say</h3>
+        <h3 className="text-2xl font-bold font-['Cambria'] ">See what Other Dog Parents Say</h3>
         {/* <p>ABOUT US</p> */}
       </div>
 

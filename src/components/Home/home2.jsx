@@ -6,7 +6,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaHandPointRight } from "react-icons/fa";
 import Image1 from "../../assets/Home2-1.jpg";
 import Image2 from "../../assets/Home2-2.png";
-import Logo from "../../assets/logo2.png";
+import Logo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
 import  './home2.css'
 function Home2() {
