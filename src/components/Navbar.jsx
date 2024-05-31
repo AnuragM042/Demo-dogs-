@@ -30,59 +30,80 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
             <div className="flex flex-shrink-0 items-center">
               <img className="h-8 w-auto" src={Logo} alt="Logo" />
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <NavLink
-                  exact
+                  exact="true"
                   to="/"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   Home
                 </NavLink>
                 <NavLink
                   to="/overnight-camps"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   Overnight Stay
                 </NavLink>
                 <NavLink
                   to="/sailing"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   Sailing
                 </NavLink>
                 <NavLink
                   to="/activity"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   One Day Activity
                 </NavLink>
                 <NavLink
                   to="/tripindia"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   Trip India
                 </NavLink>
                 <NavLink
                   to="/about"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   About
                 </NavLink>
                 <NavLink
                   to="/contact"
-                  activeClassName="bg-black text-white"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   Contact
                 </NavLink>
@@ -94,58 +115,79 @@ const Navbar = () => {
       <div className={`sm:hidden ${nav ? 'block' : 'hidden'}`} id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 bg-black pt-2">
           <NavLink
-            exact
+            exact="true"
             to="/"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             Home
           </NavLink>
           <NavLink
             to="/overnight-camps"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             Overnight Stay
           </NavLink>
           <NavLink
             to="/sailing"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             Sailing
           </NavLink>
           <NavLink
             to="/activity"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             One Day Activity
           </NavLink>
           <NavLink
             to="/tripindia"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             Trip India
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             About
           </NavLink>
           <NavLink
             to="/contact"
-            activeClassName="bg-black text-white"
-            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-700 text-white block rounded-md px-3 py-2 text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            }
             onClick={() => setNav(false)}
           >
             Contact

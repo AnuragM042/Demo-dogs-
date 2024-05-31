@@ -51,7 +51,7 @@ function Home1() {
   };
 
   return (
-    <div className="bg-custom-gradient flex justify-center items-start w-full mt-[50px]">
+    <div className="bg-[] flex justify-center items-start w-full mt-[50px]">
       {/* for small and medium screens */}
       <div className="md:hidden w-full">
         <div className="sm:w-[800px] flex items-center md:h-[800px] sm:h-auto w-full h-auto px-2 pt-10 pb-16 mt-[50px]">

@@ -22,11 +22,11 @@ const Contact1 = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 bg-custom-gradient mt-[100px]">
+    <div className="container mx-auto p-4 bg-[#D6D3D1] mt-[100px]">
       <div className="grid mt-[80px]  grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <h2 className="text-2xl font-bold mb-4 text-white">Contact Us</h2>
-          <p className="mb-4 text-white">TRAVOWLET ADVENTURE TOURS</p>
+          <h2 className="text-2xl font-bold mb-4 ">Contact Us</h2>
+          <p className="mb-4 ">TRAVOWLET ADVENTURE TOURS</p>
           <div className="flex items-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ const Contact1 = () => {
               />
             </svg>
             <span className="ml-2">
-              <p className="font-bold text-white">Location</p>
-              <p className="text-white">
+              <p className="font-bold ">Location</p>
+              <p className="">
                 202 Shri Madhuban, Jay Prakash Nagar Rd No-3, Jay Prakash
                 Nagar, Goregaon, Mumbai, Maharashtra 400063
               </p>
@@ -66,9 +66,9 @@ const Contact1 = () => {
               />
             </svg>
             <span className="ml-2">
-              <p className="font-bold text-white">Call us</p>
+              <p className="font-bold ">Call us</p>
               <a href="#">
-              <p className="text-white hover:text-red-500 hover:underline">+91 97691 19994</p>
+              <p className=" hover:text-red-500 hover:underline">+91 97691 19994</p>
               </a>
             </span>
           </div>
@@ -88,21 +88,21 @@ const Contact1 = () => {
               />
             </svg>
             <span className="ml-2">
-              <p className="font-bold text-white">Email Us</p>
+              <p className="font-bold ">Email Us</p>
               <a href="#">
-                <p className="text-white hover:text-red-500 hover:underline">Travowlet@gmail.com</p>
+                <p className=" hover:text-red-500 hover:underline">Travowlet@gmail.com</p>
               </a>
             </span>
           </div>
         </div>
         <div>
-          <h2 className="text-2xl font-bold mb-4 text-white">Send us a message</h2>
-          <p className="mb-4 text-white">
+          <h2 className="text-2xl font-bold mb-4 ">Send us a message</h2>
+          <p className="mb-4 ">
             For bookings, sponsorships & other enquiries
           </p>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="name" className="block text-white font-bold mb-2">
+              <label htmlFor="name" className="block  font-bold mb-2">
                 Your name
               </label>
               <input
@@ -116,7 +116,7 @@ const Contact1 = () => {
             <div className="mb-4">
               <label
                 htmlFor="email"
-                className="block text-white font-bold mb-2"
+                className="block  font-bold mb-2"
               >
                 Your email
               </label>
@@ -131,7 +131,7 @@ const Contact1 = () => {
             <div className="mb-4">
               <label
                 htmlFor="subject"
-                className="block text-white font-bold mb-2"
+                className="block  font-bold mb-2"
               >
                 Subject
               </label>
@@ -146,7 +146,7 @@ const Contact1 = () => {
             <div className="mb-6 flex-grow">
               <label
                 htmlFor="message"
-                className="block text-white font-bold mb-2"
+                className="block  font-bold mb-2"
               >
                 Your message (optional)
               </label>

@@ -26,7 +26,7 @@ export function AccordionItem({ children, value, trigger, ...props }) {
   const ref = useRef(null);
 
   return (
-    <li className="border-b-2 border-black  my-5 bg-zinc-700" {...props}>
+    <li className="border-b-2   my-5 " {...props}>
       <header
         role="button"
         onClick={() => setSelected(open ? null : value)}

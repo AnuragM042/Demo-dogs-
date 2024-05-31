@@ -13,7 +13,7 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-      <div className='bg-custom-gradient'>
+      <div className='bg-[#D6D3D1]'>
          <Router>
       <Layout>
         <Routes>

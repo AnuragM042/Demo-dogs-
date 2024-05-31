@@ -39,7 +39,7 @@ const Overnight2 = () => {
   };
 
   return (
-    <div className='bg-custom-gradient'>
+    <div className='bg-[#D6D3D1]'>
       <div className="slider-container  flex flex-col">
         <div className="lg:px-[200px] justify-evenly md:mt-8 sm:px-[50px]">
           <Slider {...settings}>
@@ -99,8 +99,8 @@ const Overnight2 = () => {
       {/* Accordion Section */}
       <div className="flex-1 mt-10">
         <div className='lg:px[400px] md:px-[70px] sm:[50px]'>
-            <h3 className='text-center text-3xl font-bold text-white m-10'>Frequently Asked Questions</h3>
-        <Accordion className="border-2 text-white border-black">
+            <h3 className='text-center text-3xl font-bold  m-10'>Frequently Asked Questions</h3>
+        <Accordion className="border-2  border-black">
           <AccordionItem value={1} trigger=" Is there a common transport?">
             Yes, we provide a common transport facility for all participants. The transport schedule will be shared closer to the event date.
           </AccordionItem>

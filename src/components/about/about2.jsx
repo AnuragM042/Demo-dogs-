@@ -13,8 +13,8 @@ const About2 = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-custom-gradient">
-      <h2 className='text-center font-["Cambria"] font-extrabold text-white text-3xl mb-8'>
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-[#D6D3D1]">
+      <h2 className='text-center font-["Cambria"] font-extrabold  text-3xl mb-8'>
              Meet Our Team
       </h2>
       <div className="flex flex-wrap justify-center gap-8">
@@ -36,8 +36,8 @@ const About2 = () => {
               </div>
             </div>
             <div className="mt-4 text-center">
-              <p className="text-2xl font-bold text-white">{image.text}</p>
-              <p className="text-xl font-base text-white">{image.text2}</p>
+              <p className="text-2xl font-bold ">{image.text}</p>
+              <p className="text-xl font-base ">{image.text2}</p>
             </div>
           </div>
         ))}

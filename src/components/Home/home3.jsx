@@ -49,7 +49,7 @@ const Home3 = () => {
   };
 
   return (
-    <div className='bg-custom-gradient'>
+    <div className=''>
       {/* Title */}
       <div className="flex justify-center items-center content-center">
         <p className="font-['Cambria'] text-3xl sm:text-4xl text-white mt-5 font-extrabold">Experience our Paw'dventures</p>
@@ -58,7 +58,7 @@ const Home3 = () => {
 
       {/* 1st set of images */}
      <div>
-     <div className="flex sm:justify-center overflow-x-auto w-full space-x-2 py-6 hide-scrollbar">
+     <div className="flex sm:justify-center overflow-x-auto w-full gap-3 py-6 hide-scrollbar">
      <Card className="mt-6 h-[250px] min-w-[230px] sm:w-[400px] sm:h-[300px] gap-2 px-2">
           <CardHeader color="blue-gray" className="my-2 ">
             <img src={Image1} alt="card-image" className="" />

@@ -5,7 +5,7 @@ import Image3 from "../../assets/about1-2.jpg";
 
 const About1 = () => {
   return (
-    <div className='bg-custom-gradient'>
+    <div className='bg-[#D6D3D1]'>
         {/* 1st image */}
         <div className="flex justify-center items-center mt-16"> 
       {/* Image1 for small screens */}
@@ -27,16 +27,16 @@ const About1 = () => {
           <div className="flex justify-center items-center mt-20 px-4 lg:px-0">
       <div className="lg:w-3/4 flex flex-col lg:flex-row items-center lg:items-start">
         <div className="lg:w-1/2 lg:pr-10">
-          <h2 className="text-center lg:text-left text-amber-500 font-cambria font-extrabold text-2xl mb-4">
+          <h2 className="text-center lg:text-left text-amber-600 font-cambria font-extrabold text-2xl mb-4">
             ABOUT PAW'DVENTURE
           </h2>
-          <p className="text-white mb-2">Let the Dog Out</p>
-          <h3 className="text-white mb-2">Let's make India Pet Friendly</h3>
-          <p className="text-white mb-2">
+          <p className=" mb-2 font-bold text-xl">Let the Dog Out</p>
+          <h3 className=" mb-2 font-semibold font-xl ">Let's make India Pet Friendly</h3>
+          <p className=" mb-2 font-medium font-['Lato']"> 
             The joy I felt the first time I saw my dog, Kuro running his ears out in an open field,
             was the day I realized every pet and pet parent should experience this feeling.
             No inhibition, no restriction, just the freedom to explore the world and live their best lives.
-            That’s how <span className="text-red-500 font-bold">Paw’dventure</span> started with the intention to make this joy a universal experience for all pet parents.
+            That’s how <span className="text-indigo-500 font-bold">Paw’dventure</span> started with the intention to make this joy a universal experience for all pet parents.
             What we realized was that a domesticated dog lives in a restricted environment.
             Many aspects, such as exploring new places freely, meeting new dogs, is a luxury most of them never experience.
             Thus giving birth to the most common issues found in domesticated dogs, like anxiety and unbalanced behavior.
@@ -46,7 +46,7 @@ const About1 = () => {
             well-informed and responsible pet parents. Through our various Paw’dventures, we aim at creating a
             community of well-informed and responsible pet parents and well-behaved/socialized pets.
           </p>
-          <p className="text-white">
+          <p className="">
             Join us on our journey to make India pet friendly, one Paw’dventure at a time.
           </p>
         </div>
@@ -55,16 +55,16 @@ const About1 = () => {
         </div>
       </div>
     </div>
-    <div className='flex items center lg:space-x-5 '>
-     <div className='lg:px-[240px]  md:px-16 sm:px-16'>
-        <h3 className='text-white'>Well behaved Dog</h3>
-        <p className='text-white'>-Has a good Recall</p>
-        <p className='text-white'> -Confident Dog in new surroundings </p>
+    <div className='flex am:items-center am:justify-center gap-5 '>
+     <div className='sm:pl-[200px]'>
+        <h3 className='font-semibold'>Well behaved Dog</h3>
+        <p className=''>-Has a good Recall</p>
+        <p className=''> -Confident Dog in new surroundings </p>
       </div>
-      <div>
-        <h3 className='text-white'>Well socialised Dog</h3>
-        <p className='text-white'>-Remains calm when introduces to new surroundings</p>
-        <p className='text-white'>-Gives social space and personal space to other Dogs </p>
+      <div className=''>
+        <h3 className='font-semibold'>Well socialised Dog</h3>
+        <p className=''>-Remains calm when introduces to new surroundings</p>
+        <p className=''>-Gives social space and personal space to other Dogs </p>
       </div>
      </div>
     </div>

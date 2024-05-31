@@ -42,7 +42,7 @@ function Home2() {
 
 
   return (
-    <div className='bg-custom-gradient'>
+    <div className=''> 
       {/* Date and Calendar */}
       <div className="container mx-auto p-4 flex flex-col items-center justify-center">
         <img className='h-[150px] w-[150px]' src={calendar} alt="Calendar" />
@@ -74,9 +74,9 @@ function Home2() {
           {/* Logo on top */}
           <div className='absolute inset-0 h-[400px] flex flex-col '>
             <img className='max-h-[90px] max-w-[80%]' src={Logo} alt="logo" />
-            <p className="text-lg mb-4 font-[' Lato'] text-white font-bold">Reconnect with your dog through various activities</p>
-            <p className="text-lg mb-4 font-[' Lato'] text-white font-bold">With the growing number of dogs and dog parents, more and more places are becoming pet-friendly</p>
-            <p className="text-lg mb-4 font-[' Lato'] text-white font-bold">A well-adjusted and social doggo is a prerequisite for making India pet-friendly</p>
+            <p className="text-lg mb-4 font-[' Lato']  font-bold">Reconnect with your dog through various activities</p>
+            <p className="text-lg mb-4 font-[' Lato']  font-bold">With the growing number of dogs and dog parents, more and more places are becoming pet-friendly</p>
+            <p className="text-lg mb-4 font-[' Lato']  font-bold">A well-adjusted and social doggo is a prerequisite for making India pet-friendly</p>
             <p className='flex space-x-3'>
               <Link to="/about">
                 <Button className="font-[' Lato'] bg-black border border-white p-[15px] flex justify-center content-center text-white" ripple={true}>
