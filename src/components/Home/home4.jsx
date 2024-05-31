@@ -46,7 +46,7 @@ function Home4() {
   return (
     <div className="mb-3">
       {/* Texts */}
-      <div className="flex flex-col font-['Cambria'] text-xl text-white items-center justify-center space-y-5">
+      <div className="flex flex-col font-['Cambria'] text-xl items-center justify-center space-y-5">
         <p>Testimonials</p>
         <h3 className="text-3xl font-bold font-['Cambria'] ">See what Other Dog Parents Say</h3>
         {/* <p>ABOUT US</p> */}

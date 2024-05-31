@@ -73,7 +73,7 @@ const Tripindia2 = () => {
         <div className="flex-1 mt-10 ">
           <div className="lg:px-[400px] md:px-[70px] sm:px-[50px]">
             <h3 className="text-center text-3xl font-bold m-10 ">Frequently Asked Questions</h3>
-            <Accordion className="border-2 border-black ">
+            <Accordion className=" ">
               <AccordionItem value={1} trigger="Is there a common transport?">
                 Yes, we provide a common transport facility for all participants. The transport schedule will be shared closer to the event date.
               </AccordionItem>

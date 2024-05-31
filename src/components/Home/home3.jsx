@@ -52,7 +52,7 @@ const Home3 = () => {
     <div className=''>
       {/* Title */}
       <div className="flex justify-center items-center content-center">
-        <p className="font-['Cambria'] text-3xl sm:text-4xl text-white mt-5 font-extrabold">Experience our Paw'dventures</p>
+        <p className="font-['Cambria'] text-3xl sm:text-4xl  mt-5 font-extrabold">Experience our Paw'dventures</p>
       </div>
       {/* Title ends here */}
 
