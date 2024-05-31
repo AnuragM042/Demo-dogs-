@@ -74,18 +74,24 @@ function Home2() {
           {/* Logo on top */}
           <div className='absolute inset-0 h-[400px] flex flex-col '>
             <img className='max-h-[90px] max-w-[80%]' src={Logo} alt="logo" />
-            <p className="text-lg mb-4 font-[' Lato']  font-bold">Reconnect with your dog through various activities</p>
-            <p className="text-lg mb-4 font-[' Lato']  font-bold">With the growing number of dogs and dog parents, more and more places are becoming pet-friendly</p>
-            <p className="text-lg mb-4 font-[' Lato']  font-bold">A well-adjusted and social doggo is a prerequisite for making India pet-friendly</p>
-            <p className='flex space-x-3'>
-              <Link to="/about">
-                <Button className="font-[' Lato'] bg-black border border-white p-[15px] flex justify-center content-center text-white" ripple={true}>
+               {/* Texts */}
+               <p className='flex flex-col justify-center items-center'>
+               <p className="text-lg ml-2 mb-4 font-[' Lato']  font-bold">Reconnect with your dog through various activities</p>
+            <p className="text-lg  mb-4 ml-2 font-[' Lato']  font-bold">With the growing number of dogs and dog parents, more and more places are becoming pet-friendly</p>
+            <p className="text-lg  mb-4 ml-2 font-[' Lato']  font-bold">A well-adjusted and social doggo is a prerequisite for making India pet-friendly</p>
+               </p>
+            {/* buttons */}
+            <p className='flex justify-center items-center space-x-3'>
+             
+             <Link to="/about">
+                <Button className="font-[' Lato'] bg-black border border-white p-[15px] flex am:ml-3 justify-center content-center text-white" ripple={true}>
                   KNOW MORE<MdKeyboardDoubleArrowRight className="text-xs" />
                 </Button>
               </Link>
               <Button className="font-['Cambr Latoia'] border border-white bg-black p-[15px] flex justify-center content-center text-white" ripple={true}>
                 Check out Instagram<MdKeyboardDoubleArrowRight className="text-xs" />
               </Button>
+             
             </p>
           </div>
         </div>
